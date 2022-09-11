@@ -23,3 +23,10 @@ print("Data from created_at:",c['created_at'],'Data from fiels1:',c['field1'])
 print("Data feeds:")
 for i in range(len(d)):
     print("Data from created_at:",d[i]['created_at'],'Data from fiels1:',d[i]['field1'])
+##lucky draw:
+while 1:
+    user = int(input("Enter your lucky number:"))
+    if user == 69:
+        print("Congratulations you won lottery......")
+    else:
+        print("Better luck next time")
